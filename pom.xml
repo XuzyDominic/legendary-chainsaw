@@ -8,7 +8,7 @@
         <version>3.1.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.github.XuzyDominic</groupId>
+    <groupId>com.github.XuzyDominic.OSSRH-95929</groupId>
     <artifactId>xzy-framework</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>xzymq</name>

@@ -38,8 +38,7 @@ public class connect {
     @ZyTopicMassageProducer(exchange = "xzyExchange", routeKey = "topic.1", paramName = String.class, message = " ")
     @ZyMessageCount(queueName = "xzyQueue3")
     public void send3(String message) {
-        message = (new Date()) + ": " + message;
-        Integer i = 1;
+
     }
 
     @ZyQueue(queueName = "xzyQueue3")

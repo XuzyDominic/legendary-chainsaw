@@ -9,7 +9,7 @@ import org.springframework.stereotype.Component;
 public class ApplicationRunner implements CommandLineRunner {
 
     @Override
-    @ZyRabbitConnect(username = "admin", password = "xzy163")
+    @ZyRabbitConnect(host = "124.222.89.79", username = "admin", password = "1234567")
     public void run(String... args) throws Exception {}
 
 }

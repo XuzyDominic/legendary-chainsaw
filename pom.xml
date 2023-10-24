@@ -15,6 +15,7 @@
     <description>xzymq</description>
     <properties>
         <java.version>17</java.version>
+        <maven.compiler.release>17</maven.compiler.release>
     </properties>
     <dependencies>
         <dependency>
@@ -94,7 +95,6 @@
         <dependency>
             <groupId>org.springframework</groupId>
             <artifactId>spring-aspects</artifactId>
-            <version>6.0.9</version>
         </dependency>
 
         <dependency>
@@ -110,6 +110,29 @@
             <groupId>io.dropwizard.metrics</groupId>
             <artifactId>metrics-core</artifactId>
             <version>4.2.21</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.afterturn</groupId>
+            <artifactId>easypoi-annotation</artifactId>
+            <version>3.3.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi</artifactId>
+            <version>5.2.3</version> <!-- 请根据需要选择版本 -->
+        </dependency>
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>5.2.3</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>cn.afterturn</groupId>
+            <artifactId>easypoi-base</artifactId>
+            <version>3.3.0</version>
         </dependency>
 
     </dependencies>
@@ -130,5 +153,26 @@
             </plugin>
         </plugins>
     </build>
+
+<!--    <licenses>-->
+<!--        <license>-->
+<!--            <name>BSD 3-Clause</name>-->
+<!--            <url>https://spdx.org/licenses/BSD-3-Clause.html</url>-->
+<!--        </license>-->
+<!--    </licenses>-->
+<!--    <scm>-->
+<!--        <connection>https://github.com/XuzyDominic/legendary-chainsaw.git</connection>-->
+<!--        <url>https://github.com/XuzyDominic/legendary-chainsaw/tree/master</url>-->
+<!--    </scm>-->
+<!--    <developers>-->
+<!--        <developer>-->
+<!--            <name>xuzeyao</name>-->
+<!--            <email>xzy1363564808@gmail.com</email>-->
+<!--            <roles>-->
+<!--                <role>Developer</role>-->
+<!--            </roles>-->
+<!--            <timezone>+8</timezone>-->
+<!--        </developer>-->
+<!--    </developers>-->
 
 </project>
